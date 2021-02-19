@@ -1,0 +1,83 @@
+<style>
+.navbar {
+      position: fixed;
+       left: 0;
+        top: 0;
+        width: 100%;
+        
+    }
+    *{
+      font-family: sans-serif;
+
+    }
+    body{
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background: rgba(0,0,0,.1);
+}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {width: 10%;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      left: 0;
+      position: fixed;
+      width: 130px;
+      background-color: #f1f1f1;
+      height: 100%;
+
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      position: fixed;
+       left: 0;
+        bottom: 0;
+        width: 100%;
+      background-color: #555;
+      color: white;
+      padding: 10px; 
+    }
+    .container{
+      
+    }
+    .main{
+      margin-top: 4%;
+      margin-left: 12%;
+      margin-right: 5%;
+      margin-bottom: 5%;
+      height: 100%;
+    }
+    .session{
+      margin-top: 5%;
+      margin-left: 12%;
+      margin-right: 30%;
+      width:auto;
+    }
+    .uvod{
+      position: fixed;
+       margin-top: 17%;
+       margin-left: 28%;
+    }
+    .home{
+      position: fixed;
+      margin-top: 5%;
+      margin-left: 41%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>  
