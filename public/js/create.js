@@ -108,7 +108,7 @@ $(document).on('click', '.modallista', function(){
 });
 
 
-$('.delete').on('show.bs.modal', function(event) {
+$('#delete').on('show.bs.modal', function(event) {
 
     var button = $(event.relatedTarget)
     var delId = button.data('id')
